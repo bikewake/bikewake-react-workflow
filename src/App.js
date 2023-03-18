@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import PhotoAlbum from "react-photo-album";
+
+const photos = [
+    { src: "/images/doc-workflows1.png", width: 667, height: 381 },
+    { src: "/images/doc-workflows2.png", width: 667, height: 376 },
+    { src: "/images/doc-workflows3.png", width: 678, height: 467 }
+];
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/bikewake"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          BikeWake GitHub
         </a>
       </header>
+      <PhotoAlbum layout="columns" columns="2" photos={photos} />
     </div>
   );
 }
