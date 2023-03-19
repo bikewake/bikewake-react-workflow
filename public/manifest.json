@@ -1,6 +1,6 @@
 {
-  "short_name": "BikeWake App",
-  "name": "BikeWake App Sample",
+  "short_name": "BikeWake Workflows",
+  "name": "BikeWake Workflows",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "profile192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "profile391.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "391x391"
     }
   ],
   "start_url": ".",
